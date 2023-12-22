@@ -19,7 +19,7 @@
     <Authors>machi_pon</Authors>
     <Copyright>Copyright (c) 2023 machi_pon</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/usausa/string-convert-helper</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/usausa/string-values-binder</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
