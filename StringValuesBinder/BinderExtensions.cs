@@ -56,7 +56,7 @@ public static class BinderExtensions
             return new BindingInfo<T>
             {
                 Factory = factory,
-                Mappers = mappers.ToArray()
+                Mappers = [.. mappers]
             };
         });
 
