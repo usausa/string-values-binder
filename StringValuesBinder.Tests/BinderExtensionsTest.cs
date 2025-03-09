@@ -19,7 +19,7 @@ public sealed class BinderExtensionsTest
         Assert.Equal("test", target.Value);
     }
 
-    public sealed class StringPropertyTarget
+    private sealed class StringPropertyTarget
     {
         public string? Value { get; set; }
     }
@@ -39,7 +39,7 @@ public sealed class BinderExtensionsTest
         Assert.Equal(123, target.Value);
     }
 
-    public sealed class ConvertPropertyTarget
+    private sealed class ConvertPropertyTarget
     {
         public int Value { get; set; }
     }
@@ -59,7 +59,7 @@ public sealed class BinderExtensionsTest
         Assert.Equal(123, target.Value);
     }
 
-    public sealed class ConvertNullablePropertyTarget
+    private sealed class ConvertNullablePropertyTarget
     {
         public int? Value { get; set; }
     }
@@ -83,7 +83,7 @@ public sealed class BinderExtensionsTest
     }
 
 #pragma warning disable CA1819
-    public sealed class StringArrayPropertyTarget
+    private sealed class StringArrayPropertyTarget
     {
         public string?[]? Value { get; set; }
     }
@@ -108,7 +108,7 @@ public sealed class BinderExtensionsTest
     }
 
 #pragma warning disable CA1819
-    public sealed class ConvertArrayPropertyTarget
+    private sealed class ConvertArrayPropertyTarget
     {
         public int[]? Value { get; set; }
     }
@@ -133,7 +133,7 @@ public sealed class BinderExtensionsTest
     }
 
 #pragma warning disable CA1819
-    public sealed class ConvertNullableArrayPropertyTarget
+    private sealed class ConvertNullableArrayPropertyTarget
     {
         public int?[]? Value { get; set; }
     }
