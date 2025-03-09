@@ -2,6 +2,7 @@ namespace StringValuesBinder.Tests;
 
 using Microsoft.Extensions.Primitives;
 
+#pragma warning disable CA1812
 public sealed class BinderExtensionsTest
 {
     // String
